@@ -1,0 +1,23 @@
+
+//colori
+$dark-color: #94A684;
+$medium-color: #AEC3AE;
+$light-color: #E4E4D0;
+$contrast-color: #FFEEF4;
+
+//font
+$primary-font: "Inter", sans-serif;
+$border-radius-def: 8px;
+
+//icone
+@mixin burger-menu {
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+}
+
+//variabili

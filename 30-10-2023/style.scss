@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    $primary-font
+    nav{
+       display: flex;
+       justify-content: space-between;
+       @include burger-menu;
+       h1{
+        font-size: 24px;
+       }
+    }
+}

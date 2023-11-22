@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lola's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<style>
+    
+    *{
+        font-family: Inter;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1vw;
+        height: 8vh;
+        border-bottom: 2px;
+    
+    }
+    #headerhome{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    /*
+        
+    hr{
+        margin: 0;
+    }  */
+    #mainpresentation {
+        background-color:#AEC3AE ;
+        padding: 15vw;
+        margin-top: 0;
+        min-height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    h1{
+        font-size: 40px;
+        font-weight: 400;
+    }
+    p {
+        font-size: 10px;
+        font-weight: 200;
+    }
+   h2{ margin: 1vw;
+
+   }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+#projects {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+.projectcard{
+    background-color: #E4E4D0;
+    min-height: 30vh;
+    width:99vw;
+    z-index: 1;
+    margin: 3vw;
+}
+
+.projectname{
+    z-index: 2;
+    position: relative;
+    float: left;
+    padding: 1vw;
+}
+</style>
+
+</style>
+</head>
+<body>
+    <nav>
+        <p id="headerhome">Hi, I'm Lola</p>
+        <!--icon??-->
+        <span class="material-symbols-outlined">
+            menu
+            </span>
+    </nav>
+    <hr>
+    <main>
+        <div id="mainpresentation">
+            <h1 class="mainpagename">Hello,<br>I'm Lola</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quasi natus necessitatibus, provident eos sequi facere adipisci rerum itaque doloribus laborum culpa accusamus earum, fugit nulla quod in amet at?
+            </p>
+        </div>
+        <div id="projects">
+            <h2>My Projects</h2>
+            <div class="projectcard">
+                <h3 class="projectname"> Progetto</h3>
+            </div>
+            <div class="projectcard">
+                <h3 class="projectname"> Progetto</h3>
+            </div> 
+            <div class="projectcard">
+                <h3 class="projectname"> Progetto</h3>
+            </div>
+        </div>
+        </main> 
+        <footer>
+            <p>My Contacts</p>
+            <picture></picture>
+            <picture></picture>
+            <picture></picture>
+            <p>All rights reserved</p>
+        </footer>
+   
+    
+</body>
+</html>
